@@ -1,6 +1,11 @@
 # tp_quality_homework3-4
-
-### Letter testing checklist:
+#
+### Contents
+1) [Checklist](#checklist)
+2) [Testing results](#results)
+3) [How to run](#run)
+#
+### Letter testing checklist: {#checklist}
 
 - **Send letter**
     - Send a default letter (with receiver, topic and text). Check that the letter has arrived.
@@ -22,10 +27,10 @@
     - Cancel letter translation. Write letter and click the "translate" button, abort changes. Check that the letter text is not translated.
     - Insert signature. Click on the "insert signature" button and check that the signature appeared in the letter.
 #
-### Testing results
+### Testing results {#results}
 ![Results screenshot](./results.png)
 #
-### How to run tests
+### How to run tests {#run}
 If you run tests first time, use
 ```
 pip3 install -r requirements.txt
