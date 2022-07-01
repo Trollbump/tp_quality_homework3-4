@@ -1,11 +1,6 @@
 # tp_quality_homework3-4
-#
-### Contents
-1) [Checklist](#checklist)
-2) [Testing results](#results)
-3) [How to run](#run)
-#
-### Letter testing checklist: {#checklist}
+
+### Letter testing checklist: 
 
 - **Send letter**
     - Send a default letter (with receiver, topic and text). Check that the letter has arrived.
@@ -27,23 +22,23 @@
     - Cancel letter translation. Write letter and click the "translate" button, abort changes. Check that the letter text is not translated.
     - Insert signature. Click on the "insert signature" button and check that the signature appeared in the letter.
 #
-### Testing results {#results}
+### Testing results
 ![Results screenshot](./results.png)
 #
-### How to run tests {#run}
+### How to run tests
 If you run tests first time, use
-```
+```bash
 pip3 install -r requirements.txt
 ```
 to install all needed libraries.
 #
 After that add the needed environment variiables
-```
+```bash
 export LOGIN=#your_login_here
 export PASSWORD=#your_password_here
 ```
 #
 And there you go, now you can run tests with this command
-```
+```bash
 python3 run_tests.py
 ```
