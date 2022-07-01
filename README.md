@@ -21,6 +21,24 @@
     - Translate letter. Write letter and click the "translate" button, approve changes. Check that the letter text is translated.
     - Cancel letter translation. Write letter and click the "translate" button, abort changes. Check that the letter text is not translated.
     - Insert signature. Click on the "insert signature" button and check that the signature appeared in the letter.
-
+#
 ### Testing results
 ![Results screenshot](./results.png)
+#
+### How to run tests
+If you run tests first time, use
+```
+pip3 install -r requirements.txt
+```
+to install all needed libraries.
+#
+After that add the needed environment variiables
+```
+export LOGIN=#your_login_here
+export PASSWORD=#your_password_here
+```
+#
+And there you go, now you can run tests with this command
+```
+python3 run_tests.py
+```
